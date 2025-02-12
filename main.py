@@ -120,7 +120,7 @@ if __name__ == "__main__":
     LOGGER.info(f"<---Bot Stopped--->")
 
 
-if name == 'main': 
+if __name__ == "__main__":
     #import os ( above )
     port = int(os.environ.get('PORT', 5000))
     app = Bot()
